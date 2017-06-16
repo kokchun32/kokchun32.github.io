@@ -22,6 +22,11 @@ p {
     font-size: 40px;
 }
 
+#fotter {position:fixed;
+    bottom:0px;
+    left:30%;
+}
+
 /*a {text-align: center;
     font-family: "Pangolin", Times, serif;
     color: white;
