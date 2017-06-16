@@ -7,6 +7,38 @@
 <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pangolin" rel="stylesheet">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- <script>
+$(document).ready(function(){
+    $("#footer1").click(function(){
+        $("#footer2").hide();
+    });
+    $("#footer2").click(function(){
+        $("#footer1").show();
+    });
+});
+</script> -->
+
+<script>
+$(function() {
+ $('#footer1').click(function(){
+ 	if($('#footer1').attr('src') == "http://pngimg.com/uploads/lion/lion_PNG23291.png"){
+ 		$("#footer1").attr('src',"https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/alpha-cat.png")
+ 	}else{
+   		$("#footer1").attr('src',"http://pngimg.com/uploads/lion/lion_PNG23291.png");
+ 	}
+ });
+
+  $('#footer2').click(function(){
+  	if ($('#footer2').attr('src') == "http://imagespng.com/Data/Logo/cheetah_PNG14853.png"){
+   		$("#footer2").attr('src',"http://www.clker.com/cliparts/4/y/7/h/J/g/cat-silhouette-hi.png")
+   	}else{
+   		$("#footer2").attr('src', "http://imagespng.com/Data/Logo/cheetah_PNG14853.png");
+   	}
+ });
+});
+</script> 
+
 <title>My portfolio</title>
 </head>
 
