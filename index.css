@@ -1,0 +1,35 @@
+h1 {
+    font-family: "Indie Flower";
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-family: "Pangolin";
+    text-align: center;
+    font-size: 20px;
+}
+
+#mimi {display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#footer1 {position:fixed;
+    bottom:0px;
+    left:0%;
+}
+
+#footer2 {position:fixed;
+    bottom:0px;
+    right:0%;
+}
+
+html {background: none}
+
+/*border-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/alpha-cat.png) 25% repeat;
+
+#footer{
+    border-image-source: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/234228/alpha-cat.png);
+    border-image-repeat: repeat;*/
+}
